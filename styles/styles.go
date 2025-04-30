@@ -15,14 +15,17 @@ const (
 
 // Default styles.
 const (
-	AsciiStyle      = "ascii" //nolint: revive
-	AutoStyle       = "auto"
-	DarkStyle       = "dark"
-	DraculaStyle    = "dracula"
-	TokyoNightStyle = "tokyo-night"
-	LightStyle      = "light"
-	NoTTYStyle      = "notty"
-	PinkStyle       = "pink"
+	AsciiStyle        = "ascii" //nolint: revive
+	AutoStyle         = "auto"
+	DarkStyle         = "dark"
+	DraculaStyle      = "dracula"
+	TokyoNightStyle   = "tokyo-night"
+	RosePineStyle     = "rose-pine"
+	RosePineMoonStyle = "rose-pine-moon"
+	RosePineDawnStyle = "rose-pine-dawn"
+	LightStyle        = "light"
+	NoTTYStyle        = "notty"
+	PinkStyle         = "pink"
 )
 
 var (
@@ -671,8 +674,11 @@ var (
 		PinkStyle:  &PinkStyleConfig,
 
 		// Popular themes
-		DraculaStyle:    &DraculaStyleConfig,
-		TokyoNightStyle: &TokyoNightStyleConfig,
+		DraculaStyle:      &DraculaStyleConfig,
+		TokyoNightStyle:   &TokyoNightStyleConfig,
+		RosePineStyle:     &RosePineStyleConfig,
+		RosePineMoonStyle: &RosePineMoonStyleConfig,
+		RosePineDawnStyle: &RosePineDawnStyleConfig,
 	}
 )
 
